@@ -6,12 +6,12 @@ using System.Web.Mvc;
 
 namespace RenderLayOut.Controllers
 {
-    public class HomeController : Controller
+    public class SobreController : Controller
     {
-        public ActionResult Index()
+        // GET: Sobre
+        public ActionResult Sobre()
         {
             return View();
         }
-      
     }
 }
